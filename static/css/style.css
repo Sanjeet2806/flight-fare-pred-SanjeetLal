@@ -1,0 +1,38 @@
+body {
+    background: url('https://wallpaperaccess.com/full/254361.jpg');  
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size:100% 100%;
+    /* background-color: #e1f4f3; */
+    text-align: center;
+}
+
+.navbar {
+    color: black;
+    text-align: center;
+    background-color: rgba(252, 232, 220, 0.5);
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgba(10, 10, 10, 0.80);
+  }
+
+#pred{
+    color: #f0f0f0;
+    border: 2 px solid black;
+    border-radius: 1px;
+    background-color: rgba(37, 37, 34, .40);
+}
+
+.card{
+    background-color: rgba(252, 232, 220, 0.5);
+    color: black;
+}
