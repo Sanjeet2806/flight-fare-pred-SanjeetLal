@@ -23,7 +23,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">FLIGHT FARE PREDICTION SYSTEM</a>
+                <a class="navbar-brand" href="/">FLIGHT  FARE  PREDICTION  SYSTEM</a>
             </div>
         </div>
     </nav>
@@ -34,7 +34,7 @@
     <div class="container">
 
 
-
+        <h5 id="desc">Enter these details for your prediction :</h5>
         <form action="\predict" method="post">
 
 
@@ -108,7 +108,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Stopages</h5>
+                            <h5 class="card-title">Stoppages</h5>
                             <!-- Total Stops -->
                             <select name="stops" required="required">
                                 <option value="0">Non-Stop</option>
@@ -157,10 +157,10 @@
         <br>
         <br>
         <div id="pred">
-            <h4>{{ prediction_summary_1 }}</h4>
-            <h4>{{ prediction_summary_2 }}</h4>
-            <h4>{{ prediction_summary_3 }}</h4>
-            <h3>{{ prediction_text }}</h3>
+            <h6>{{ prediction_summary_1 }}</h6>
+            <h6>{{ prediction_summary_2 }}</h6>
+            <h6>{{ prediction_summary_3 }}</h6>
+            <h5>{{ prediction_text }}</h5>
         </div>
         
 
