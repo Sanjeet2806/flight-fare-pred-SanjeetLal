@@ -358,7 +358,7 @@ def predict():
 
         output=round(prediction[0],2)
 
-        return render_template('home.html',prediction_summary_1 = airline+" Flight from "+Source+" to "+Destination, prediction_summary_2 = "Departure -> "+str(date_dep)+"     "+"Arrival -> "+str(date_arr), prediction_summary_3 = "Total stops -> "+str(Total_stops) ,prediction_text = "Approximate fare is Rs. {}".format(output))
+        return render_template('home.html',prediction_summary_1 = airline+" Flight from "+Source+" to "+Destination, prediction_summary_2 = "Departure :- "+str(date_dep)+"\t"+"Arrival :- "+str(date_arr), prediction_summary_3 = "Total stops :- "+str(Total_stops) ,prediction_text = "Approximate fare is Rs. {}".format(output))
 
 
     return render_template("home.html")
