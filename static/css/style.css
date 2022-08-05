@@ -9,12 +9,18 @@ body {
 
 .navbar {
     color: black;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     background-color: rgba(252, 232, 220, 0.5);
 }
 
 .container-fluid{
     text-align: center;
+}
+
+#desc{
+    margin-bottom: 15px;
 }
 
 a {
@@ -26,13 +32,26 @@ a:hover {
   }
 
 #pred{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #f0f0f0;
     border: 2 px solid black;
     border-radius: 1px;
-    background-color: rgba(37, 37, 34, .40);
+    background-color: rgba(37, 37, 34, .70);
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .card{
     background-color: rgba(252, 232, 220, 0.5);
     color: black;
+}
+
+.btn-secondary{
+    background-color: rgba(10, 10, 10, 0.70);
+    border: 0;
+}
+
+.btn-secondary:hover{
+    background-color: rgba(10, 10, 10, 0.90);
 }
